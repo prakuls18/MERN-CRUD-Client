@@ -1,0 +1,242 @@
+body{
+  height: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: gray;
+}
+
+.App{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+}
+
+#title{
+  border: 5px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  width: max-content;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+}
+
+#description{
+  background-color: white;
+  border: outset 10px;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.inputarea{
+  margin-top: 50px;
+  height: 500px;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+input[type="text"]{
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+#foodname{
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+#amountneeded{
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: black;
+  background-color: white;
+}
+
+#addButton{
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: black; 
+  height: 50px;
+  margin-left: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 150px;
+  font-size: medium;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+#addButton:hover{
+  transform:scale(1.2) perspective(5px);
+  transition: 0.5s;
+}
+#addButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#addButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -1px;
+  transition: 0.5s;
+}
+
+#addButton:hover span {
+  padding-right: 15px;
+}
+
+#addButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#addButton:active{
+  transform: translateY(1px);
+  transition: 0.1s;
+}
+
+.dataContainer{
+  padding-bottom: 10px;
+}
+
+.foodList{
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 90px;
+  margin: auto;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+#groceryList{
+  color: black;
+}
+
+.buttonContainer{
+  margin: auto;
+  margin-right: 0px;
+}
+
+#change{
+  height: 10px;
+  margin: auto;
+  margin-right: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: black; 
+  height: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100px;
+  font-size: medium;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#change:hover{
+  transform:scale(1.2) perspective(5px);
+  transition: 0.5s;
+}
+#change span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#change span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -1px;
+  transition: 0.5s;
+}
+
+#change:hover span {
+  padding-right: 15px;
+}
+
+#change:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#change:active{
+  transform: translateY(1px);
+  transition: 0.1s;
+}
+
+#numberInput{
+  height: 30px;
+  width: 200px;
+  font-size: small;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+#delete{
+  height: 30px;
+  margin: auto;
+  margin-right: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  color: black; 
+  height: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100px;
+  font-size: medium;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#delete:hover{
+  transform:scale(1.2) perspective(5px);
+  transition: 0.5s;
+}
+#delete span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#delete span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -1px;
+  transition: 0.5s;
+}
+
+#delete:hover span {
+  padding-right: 15px;
+}
+
+#delete:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#delete:active{
+  transform: translateY(1px);
+  transition: 0.1s;
+}
